@@ -27,13 +27,7 @@ Install
 
 **Windows Users**
 
-If you're running Windows remove the following line from the `package.json` file and use browser adapters instead of Node's levelDB adapter ([See here](https://github.com/nolanlawson/hello-electron-with-pouchdb#browser-vs-node) for more info):
-
-    "postinstall": "bash postinstall.sh"
-
-... and set the browser adapter in `app.js` like so:
-
-    const localDB = new PouchDB('app', { adapter: 'websql' })
+If you're running Windows use the `windows-setup` brance as all changes have been made.
 
 Usage
 -----
