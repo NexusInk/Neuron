@@ -27,7 +27,7 @@ Install
 
 **Windows Users**
 
-If you're running Windows use the `windows-setup` brance as all changes have been made.
+If you're running Windows use the `windows-setup` branch as all changes have been made.
 
 Usage
 -----
