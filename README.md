@@ -35,6 +35,8 @@ If you're running Windows remove the following line from the `package.json` file
 
     const localDB = new PouchDB('app', { adapter: 'websql' })
 
+OR you can just pull the `windows-setup` branch.
+
 Usage
 -----
 
