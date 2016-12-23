@@ -10,7 +10,7 @@ let win
 PouchDB.plugin(require('pouchdb-find'))
 
 // Local PouchDB
-const localDB = new PouchDB('app/data')
+const localDB = new PouchDB('app', { adapter: 'websql' })
 
 // Remote CouchDB
 if(env.COUCH_HOST && env.COUCH_PORT) {
